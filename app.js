@@ -10,7 +10,7 @@ let timeOutRecursive = function () {
             div.innerHTML = timer.toString()
             timeOutRecursive()
         }
-    }, 600)
+    }, 60000)
     stop.addEventListener("click", () => {
         clearTimeout(timeOutId);
     })
